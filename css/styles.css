@@ -4,6 +4,119 @@
 --second-font:'Raleway', sans-serif;
 
 /* Text colors */
+--main-text-cl:#212121;
+--second-text-cl:#2196F3;
+--third-text-cl:#757575;
+--fourth-text-cl:#FFFFFF;
 
+/* backgrounds*/
+--accent-bg-cl: #FFFFFF;
+--second-bg-cl: #2F303A;
+}
 
+.page {
+    font-family: var(--main-font);
+    background-color: var(--accent-bg-cl);
+}
+.logo link{
+    font-family: var(--second-font);
+    font-weight: 700;
+    color: var(--second-text-cl);
+}  
+.logo-header{
+    color:000000;
+}
+.list{
+ list-style: none;   
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em
+}
+.list-item {
+color:var(--main-text-cl);
+}
+.link :hover :focus {color:var(--second-text-cl);
+}
+
+.list-item-contact {
+    color:var(--third-text-cl);}
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: var(--fourth-text-cl);
+    font-family: var(--second-font);
+    font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.btn-hero{
+color: var(--fourth-text-cl);
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+background: #2196F3;
+}
+.subtitle{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.subtitle-text{
+    color: var(--third-text-cl);
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.team{
+    background: #F5F4FA;
+}
+.title-card{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+}
+.text-card {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: var(--third-text-cl)
+}
+.logo-footer{
+color: var(--fourth-text-cl);    
+}
+.footer {
+background-color: var(--second-bg-cl);
+}
+.adress {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--fourth-text-cl)
+}
+.contacts {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
