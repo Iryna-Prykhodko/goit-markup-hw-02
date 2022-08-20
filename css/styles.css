@@ -17,6 +17,7 @@
 
 .page {
     font-family: var(--main-font);
+    color: var(--main-text-cl);
     background-color: var(--accent-bg-cl);
 }
 .logo link{
@@ -39,9 +40,7 @@ letter-spacing: 0.02em
 text-decoration: none;
 color: currentColor;
 }
-.list-item {
-color:var(--main-text-cl);
-}
+
 .link:hover,
 .link:focus {color:var(--second-text-cl);
 }
