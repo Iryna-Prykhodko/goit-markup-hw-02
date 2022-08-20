@@ -12,6 +12,7 @@
 /* backgrounds*/
 --accent-bg-cl: #FFFFFF;
 --second-bg-cl: #2F303A;
+--third-bg-cl:#2196F3;
 }
 
 .page {
@@ -27,18 +28,22 @@
     color:000000;
 }
 .list{
- list-style: none;   
+list-style: none;   
 font-family: var(--main-font);
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em
 }
+.link {
+text-decoration: none;
+color: currentColor;
+}
 .list-item {
 color:var(--main-text-cl);
 }
-.link :hover :focus {color:var(--second-text-cl);
+.link:hover,
+.link:focus {color:var(--second-text-cl);
 }
 
 .list-item-contact {
@@ -119,4 +124,18 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.button:hover,
+.button:focus
+{color: var(--fourth-text-cl);
+background-color: var(--third-bg-cl);
+}
+.button{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
 }
