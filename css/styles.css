@@ -42,6 +42,7 @@ letter-spacing: 0.02em
 .link {
 text-decoration: none;
 color: currentColor;
+font-style: normal;
 }
 .list-link{
     text-decoration: none;
@@ -129,7 +130,6 @@ letter-spacing: 0.03em;
 color: var(--fourth-text-cl)
 }
 .contacts {
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -182,5 +182,4 @@ letter-spacing: 0.03em;
   }
   .address{
 font-style: normal;
-
   }
