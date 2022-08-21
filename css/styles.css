@@ -20,7 +20,8 @@
     color: var(--main-text-cl);
     background-color: var(--accent-bg-cl);
 }
-.logo-link{
+.logo-link{ 
+text-decoration-line: none;  
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -28,6 +29,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
+
 }  
 .logo-header{
     color:#000000;
