@@ -53,7 +53,11 @@ font-style: normal;
 .link:hover,
 .link:focus {color:var(--second-text-cl);
 }
-
+a:{
+    text-decoration-color: none;
+    text-decoration-line: none;
+    text-decoration: none;
+}
 .list-item-contact {
     color:var(--third-text-cl);}
 .hero{
@@ -124,6 +128,7 @@ color: var(--fourth-text-cl);
 background-color: var(--second-bg-cl);
 }
 .adress {
+text-decoration-line: none;    
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -144,7 +149,7 @@ color: rgba(255, 255, 255, 0.6);
 background-color: var(--third-bg-cl);
 }
 .button{
-    font-family: inherit;
+font-family: inherit;
 cursor: pointer;
 background: #F5F4FA;
 color: var(--main-text-cl);
@@ -184,4 +189,9 @@ letter-spacing: 0.03em;
   }
   .address{
 font-style: normal;
+text-decoration: none;
+text-decoration-line: none;
   }
+.address:hover,
+.address:focus {color:var(--second-text-cl);
+}
