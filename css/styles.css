@@ -167,9 +167,10 @@ letter-spacing: 0.06em;
 }
 .text-works{
 font-size: 16px;
+font-weight: 400;
 line-height: 1.87;
 letter-spacing: 0.03em;
-}
+color: var(--third-text-cl);}
 
 /*прихований заголовок*/
 .visually-hidden {
@@ -194,4 +195,7 @@ text-decoration-line: none;
   }
 .address:hover,
 .address:focus {color:var(--second-text-cl);
+}
+.footer.address:hover{
+    color: var(--second-text-cl);
 }
